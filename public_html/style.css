@@ -1,0 +1,85 @@
+body{
+    background:linear-gradient(#ACB5BC,#232B36 100%);
+    font-family: Trebuchet MS;
+    font-weight: lighter;
+}
+#wrapper{
+    width:900px;
+    margin:auto;
+}
+#menu ul{
+    background-color: rgb(119,129,139);
+    margin:0px;
+    width:1345px;
+    position:relative;
+    left:-223px;
+    padding: 15px 230px;
+}
+#menu li{
+    list-style-type: none;
+    display:inline;
+    padding-right: 123px;
+}
+#menu a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    
+}
+#menu a:hover{
+    color:orangered;
+}
+#image{
+    background: url("images/house2.jpg") no-repeat;
+    height:300px;
+}
+#image h3{
+    position:relative;
+    left:40px;
+    color:silver;
+    font-size: 30px;
+    margin: 0px;
+    margin-top:25px;
+}
+#image h1{
+    position:relative;
+    left:70px;
+    color:rgb(250,154,135);
+    font-size: 48px;
+    margin: 0px;
+}
+#image h2{
+    position:relative;
+    left:170px;
+    color:gray;
+    font-size: 38px;
+    margin: 0px;
+}
+.content-header{
+    background-color: rgb(146,155,164);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color:white;
+    width:900px;
+    height:290px;
+}
+.content-header img{
+    float:left;
+    margin: 40px 20px;
+}
+.content-header h2{
+    margin-top:-42px;
+    padding-top:40px;
+    font-size: 40px;
+}
+.content-header h6{
+    font-size: 20px;
+    margin-top:-15px;
+}
+.content-header p{
+     margin-top:-15px;
+     margin-left:25px;
+     width:790px;
+     font-size: 15px;
+    
+}
