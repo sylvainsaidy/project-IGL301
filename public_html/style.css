@@ -84,13 +84,51 @@ body{
     
 }
 
+#content1{
+    float:left;
+    color:white;
+    width:200px;
+    height: 800px;
+    margin-right:60px;
+}
+#content1 h3{
+    font-size: 25px;
+    margin-left:20px;
+}
+#content2 h3{
+    font-size: 25px;
+    margin-left:20px;
+    color:white;
+}
+#content1 ul li{
+    list-style-image: url("images/arrow1.gif");
+}
+#content2 ul li{
+    list-style-type: none;
+}
+.image{
+    float:left;
+}
+#content2 h6{
+    color: rbg(209,213,206);
+}
+
+
+
+
 #footer{
     background:linear-gradient(rgb(101,110,121),rgb(119,128,138) 100%);
-    //margin:0px;
+    margin:0px;
     width:1345px;
     position:relative;
     left:-223px;
-    padding: 0px 230px;
-    border-bottom-style:none;
-    border:solid thin white;
+    padding: 25px 230px;
+    color:white;
+    font-size: 14px;
+    font-weight: lighter;
+   
+}
+#footer #footer-left{
+    float:left;
+    margin-right: 610px;
 }
