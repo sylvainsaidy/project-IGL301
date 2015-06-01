@@ -83,3 +83,14 @@ body{
      font-size: 15px;
     
 }
+
+#footer{
+    background:linear-gradient(rgb(101,110,121),rgb(119,128,138) 100%);
+    //margin:0px;
+    width:1345px;
+    position:relative;
+    left:-223px;
+    padding: 0px 230px;
+    border-bottom-style:none;
+    border:solid thin white;
+}
