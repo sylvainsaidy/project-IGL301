@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(#ACB5BC,#232B36);
+    background:linear-gradient(rgb(144,152,161),rgb(116,126,137));
     font-family: Trebuchet MS;
     font-weight: lighter;
 }
@@ -14,7 +14,7 @@ body{
     width:1345px;
     position:relative;
     left:-223px;
-    padding: 15px 230px;
+    padding: 15px 240px;
     border-bottom: solid thin white;
     
 }
@@ -35,6 +35,7 @@ body{
 #image{
     background: url("images/house2.jpg") no-repeat;
     height:300px;
+    width:920px;
 }
 #image h3{
     position:relative;
@@ -63,7 +64,7 @@ body{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     color:white;
-    width:900px;
+    width:920px;
     height:290px;
 }
 .content-header img{
@@ -80,10 +81,10 @@ body{
     margin-top:-15px;
 }
 .content-header p{
-     margin-top:-15px;
+     margin-top:-25px;
      margin-left:25px;
-     width:790px;
-     font-size: 15px;
+     width:840px;
+     font-size: 16px;
     
 }
 
@@ -135,14 +136,14 @@ body{
 
 
 #footer{
-    background:linear-gradient(rgb(101,110,121),rgb(119,128,138) 100%);
-    margin-top:100px;
+    background:linear-gradient(rgb(101,110,121),rgb(119,128,138));
+    margin-top:50px;
     width:1345px;
     position:relative;
     left:-223px;
-    padding: 25px 230px;
+    padding: 15px 240px;
     color:white;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: lighter;
     border-top: solid thin white;
    
@@ -165,29 +166,31 @@ body{
     padding:0px 18px;
     
 }
-#content-villa a img:hover{
-    border:solid rgb(250,154,135);
-}
 #content-villa a img{
     margin-top: -8px;
+    border:solid rgb(250,154,135);
 }
 #content-villa pre{
     margin-left:-65px;
     font-family: Trebuchet MS;
     font-weight: lighter;
+    font-size: 13px;
 }
 
 .content-header1{
     background-color: rgb(146,155,164);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    color:white;
-    width:900px;
+    color:whitesmoke;
+    width:920px;
     height:390px;
+    
 }
 .content-header1 img{
     float:left;
-    margin: 40px 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 25px;
     border:solid white;
 }
 .content-header1 h2{
@@ -198,11 +201,9 @@ body{
 
 .content-header1 p{
      margin-top:-15px;
-     margin-left:25px;
-     margin-right: -25px;
-     width:840px;
+     width:900px;
      font-size: 13px;
-     font-weight: lighter;
+     
 }
 
 .content-header2{
@@ -210,7 +211,7 @@ body{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     color:white;
-    width:900px;
+    width:920px;
     height:205px;
 }
 .content-header2 img{
@@ -229,9 +230,77 @@ body{
 .content-header2 pre{
      margin-top:-25px;
      font-size: 13px;
-     font-weight: lighter;
      font-family: Trebuchet MS;
 }
 .content-header2 a{
     color:rgb(250,154,135);
+}
+.content-header3{
+   
+    color:whitesmoke;
+}
+.content-header3 img{
+    float:left;
+    margin-left:20px;
+    margin-top:-5px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border:solid rgb(250,154,135);
+    
+}
+.content-header3 h1{
+    font-weight: lighter;
+    font-size: 35px;
+    margin-top:-4px;
+    margin-left:20px;
+}
+.content-header3 h6{
+    margin-top:-5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.content-header3 p{
+     margin-top:-20px;
+     margin-right: 20px;
+     margin-bottom: 10px;
+     font-size: 13px;
+     font-weight:lighter; 
+     
+}
+.content-header3 a{
+    color:rgb(250,154,135);
+    font-size: 13px;
+}
+#exterior{
+    float: left;
+}
+
+
+#table{
+    width: 870px;
+    height: 170px;
+    margin-top: -60px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    border:solid white;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#table td, #table th{
+	border:solid thin;
+}
+
+#table #head tr th{
+    background-color: silver;
+    text-align: center;
+    border-bottom:thin white;
+    font-size: 19px;
+    
+    
+}
+#table .lefted{
+    text-align: left;
+    text-indent:5px;
+    font-weight: bold;
 }
